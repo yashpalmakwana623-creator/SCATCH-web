@@ -16,7 +16,7 @@ router.get("/", function (req, res) {
 
 router.post("/register", registerUser);
 router.post("/login", loginUser);
-router.post("/logout", logout);
+router.post("/logout", logout); 
 
 
 router.post("/cart/add/:productId", isLoggedin, async function(req, res) {
